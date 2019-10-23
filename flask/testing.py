@@ -5,6 +5,7 @@
 
     Implements test support helpers.  This module is lazily imported
     and usually not used in production environments.
+    实现了测试功能支持, 这个模块是懒加载并且通常不适用在生产环境中
 
     :copyright: © 2010 by the Pallets team.
     :license: BSD, see LICENSE for more details.

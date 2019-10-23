@@ -4,6 +4,7 @@
     ~~~~~~~~~~~~~~
 
     Implements the WSGI wrappers (request and response).
+    实现WSGI的包装器 request 和 response
 
     :copyright: © 2010 by the Pallets team.
     :license: BSD, see LICENSE for more details.
@@ -19,15 +20,18 @@ from flask.globals import current_app
 class JSONMixin(object):
     """Common mixin for both request and response objects to provide JSON
     parsing capabilities.
+    request 和 response 公共的mixin类 提供json解析的功能
 
     .. versionadded:: 1.0
     """
 
+    # 注: Ellipsis 是省略符的意思, 是一个单例
     _cached_json = (Ellipsis, Ellipsis)
 
     @property
     def is_json(self):
         """Check if the mimetype indicates JSON data, either
+        检查mimetype 是否是json数据
         :mimetype:`application/json` or :mimetype:`application/*+json`.
 
         .. versionadded:: 0.11

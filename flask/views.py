@@ -4,6 +4,7 @@
     ~~~~~~~~~~~
 
     This module provides class-based views inspired by the ones in Django.
+    这个模块提供了从django中的得到启发的类视图的概念
 
     :copyright: © 2010 by the Pallets team.
     :license: BSD, see LICENSE for more details.
